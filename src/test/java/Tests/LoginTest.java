@@ -38,7 +38,7 @@ public class LoginTest extends BaseTest{
 		
 		LoginPage lt = new LoginPage(driver);
 		//lt.setUname("admin@yourstore.com");
-		//lt.setPwd("admin");
+		//lt.setPwd("admin");//without excel
 		lt.setUname(username);
 		lt.setPwd(password);
 		
